@@ -14,8 +14,8 @@ stomp.py==8.1.0
 sqlalchemy==2.0.23
 pymongo==4.6.0
 psycopg2-binary==2.9.9
-mysql-connector-python==8.2.0
-cx-Oracle==8.3.0
+# Removed cx-Oracle==8.3.0 - Migrated to PostgreSQL only
+# Removed mysql-connector-python==8.2.0 - Using PostgreSQL only
 pyodbc==5.0.1
 pytest==7.4.3
 pytest-cov==4.1.0
